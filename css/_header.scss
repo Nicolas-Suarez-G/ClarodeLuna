@@ -1,0 +1,21 @@
+header {
+  background-color: $dark-bg;
+  color: $white;
+  padding: 20px;
+  .navbar {
+    &-nav {
+      .nav-link {
+        color: $white;
+        font-weight: bold;
+      }
+    }
+  
+    &-toggler {
+      border-color: $white;
+  
+      &-icon {
+        filter: invert(1);
+      }
+    }
+  }
+}
